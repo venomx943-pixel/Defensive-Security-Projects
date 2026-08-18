@@ -1,28 +1,18 @@
 # Defensive Security Projects 🛡️
 
-A collection of foundational defensive security tools and scripts built from scratch using Python, as part of a deep engineering journey into Blue Teaming, threat detection, and system hardening before advancing into AI Security.
+A collection of foundational defensive security tools built from scratch using Python. This repository documents my journey into Blue Teaming and infrastructure hardening, laying the ground work for advanced AI Security engineering.
 
-## 🛠️ Included Projects:
+## 🛠️ Projects Included:
 
-1. **Log Monitoring System (Mini-SIEM):**
-   - **Path:** `01-Log-Monitor-SIEM/`
-   - **Description:** A lightweight, memory-efficient log monitoring script that reads server access logs in real-time using generators and pre-compiled regex.
-   - **Capabilities:** Detects Brute-force login attempts and SQL Injection (SQLi) patterns, triggering automated defensive warnings and tracking malicious IPs.
-
-2. **Web Application Firewall (Mini-WAF):**
-   - **Path:** `02-Mini-WAF/`
-   - **Description:** A middleware security guard built with Flask for web application protection.
-   - **Capabilities:** Inspects incoming HTTP request URIs and POST/PUT/PATCH bodies against compiled attack signatures (such as XSS and Advanced SQLi), blocking malicious payloads with a `403 Forbidden` response.
-
-3. **Network Intrusion Detection System (Mini-IDS):**
-   - **Path:** `03-Mini-IDS/`
-   - **Description:** A network packet sniffer built using Python and Scapy.
-   - **Capabilities:** Monitors live TCP traffic to detect suspicious scanning behaviors (such as rapid Port Scanning/Reconnaissance) while optimizing memory usage and preventing log spamming.
+1. **Log Monitoring System (Mini-SIEM):** Real-time monitoring for brute-force and SQLi detection.
+2. **Web Application Firewall (Mini-WAF):** Middleware protection against XSS and injection attacks.
+3. **Network Intrusion Detection System (Mini-IDS):** Scapy-based sniffer to detect reconnaissance/port scanning.
+4. **File Integrity Monitor (FIM):** SHA-256 based surveillance to detect unauthorized file modifications.
+5. **Automated Response Engine (Mini-SOAR):** Orchestration engine that automates threat mitigation (e.g., blocking malicious IPs).
 
 ---
 
-## 🚀 Getting Started & Usage
-
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/venomx943-pixel/Defensive-Security-Projects.git](https://github.com/venomx943-pixel/Defensive-Security-Projects.git)
+## 🚀 Getting Started
+Clone the repo and navigate to each folder to run the scripts:
+```bash
+git clone [https://github.com/venomx943-pixel/Defensive-Security-Projects.git](https://github.com/venomx943-pixel/Defensive-Security-Projects.git)
